@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+
+<h1>Inicio de Sesión</h1>
+<form action="/login" method="post">
+    <section>
+        <label for="username">Correo</label>
+        <input id="username" name="username" type="text" autocomplete="username" required autofocus>
+    </section>
+    <section>
+        <label for="current-password">Contraseña</label>
+        <input id="current-password" name="password" type="password" autocomplete="current-password" required>
+    </section>
+    <button type="submit">Iniciar Sesión</button>
+</form>
+
+<br><br>
+
+<a href="/signup">
+    <button>Registrar Cuenta</button>
+</a>
